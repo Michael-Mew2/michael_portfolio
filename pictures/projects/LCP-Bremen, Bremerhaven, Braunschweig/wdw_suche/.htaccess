@@ -1,0 +1,9 @@
+<Files "*.txt">
+Order deny,allow
+deny from all
+</Files>
+
+<Files "*.php">
+Order deny,allow
+deny from all
+</Files>

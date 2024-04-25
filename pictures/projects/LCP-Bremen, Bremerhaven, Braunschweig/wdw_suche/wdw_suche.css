@@ -1,0 +1,80 @@
+/* 
+Wenn das Suchergebnis in einer eigenen Seite ausgegeben wird,
+sollten mindestens die folgenden Style Angaben übernommen werden,
+um die Ergebnisseite entsprechend dieser Musterdatei zu gestalten.
+*/
+
+
+#output p, #output li {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+#output li {margin: .8em 2.5em;}
+
+
+
+#search input {font-size:1rem;margin-bottom: 1em}
+#search input[type=text] {width: 12em;max-width: 70%}
+
+
+ 
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+#output a {font-weight: bold;}
+
+.searchword  {color: #222; background-color: #ffd; border: 1px dotted #ffd;}
+.searchword0 {color: #222; background-color: #ff0; border: 1px dotted #ff0;}
+.searchword1 {color: #222; background-color: #0f0; border: 1px dotted #0f0;}
+.searchword2 {color: #222; background-color: #0ff; border: 1px dotted #0ff;}
+.searchword3 {color: #222; background-color: #fbb; border: 1px dotted #fbb;}
+.searchword4 {color: #222; background-color: #dfd; border: 1px dotted #dfd;}
+.searchword5 {color: #222; background-color: #faf; border: 1px dotted #faf;}
+.searchword6 {color: #222; background-color: #ccc; border: 1px dotted #ccc;}
+
+#output .mod {font-size: .85em;}
+#output .mod1 {font-size: .85em;}
+#output .treffer{font-size: .85em; color: #888}
+
+/* Zeilenumbrueche einfuegen: */
+/* .treffer:before,  vor der Trefferanzahl */
+#output .mod:before, /* vor der URL */
+#output .mod1:before { /* vor dem Aenderungsdatum */
+content: ".";
+display:block;
+visibility:hidden;
+height: 0;
+}
+	
+
+#searchfooter {
+font-size: .8em;
+margin-top: 1em;
+}
+
+#suchtipheader {display:inline-block;}
+
+#klapp0 {
+text-decoration: none;
+color: #333;
+font-size: .8em;
+font-weight:normal !important;
+outline:none 0;
+}
+
+#suchtipps a:focus, #suchtipps a:hover, #suchtipps a:active {text-decoration: underline;}
+
+#output li {margin: 1em 2.5em  ; clear:left;}
+
+#output li img {
+	float:left;
+	max-width: 120px;
+	margin: 0 1em 1em 0;
+}
+
+.weiter, #searchfooter, #output h3 {display:block; clear:left}
+
+
+

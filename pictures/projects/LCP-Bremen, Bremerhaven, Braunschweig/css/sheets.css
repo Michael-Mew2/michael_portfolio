@@ -1,0 +1,270 @@
+﻿/* Sheet by Internet */
+
+/* reset  */
+html, body {
+	margin: 0; padding: 0; border:0; background: transparent; font-size:10px;
+}
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0; padding: 0;  border: 0;
+    vertical-align: baseline; background: transparent;
+    }
+    
+img  { margin:0; padding:0; border:0;}
+	
+table, tr, th, td, tbody, tfoot, thead {
+	margin: 0; padding: 0;  border: 0; 
+	vertical-align:baseline;
+	background:transparent;
+	}
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+input, select, textarea, form, fieldset {
+	margin: 0; padding: 0;  border: 0;
+	}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+	display:block;
+	}
+
+h1, h2, h3, h4, h5, h6, p, li, blackquote, td, th, a, caption, em, strong, strike {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight:normal;
+	font-style:normal;
+	line-height:100%;
+	text-indent: 0;
+	text-decoration:none;
+	text-align:left;
+	color:#000;
+	}
+
+ol, ul { list-style: none; }
+ 
+/* Global */
+
+html { }
+body { background-color:#FFFFFF; }
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; color:#000; }
+
+h1 { font-size:24px; }
+h2 { font-size:20px; }
+h3 { font-size:16px; }
+h4 { font-size:14px; }
+h5 { font-size:14px; }
+h6 { font-size:14px; }
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin: 0; }
+
+
+
+/* Text Elements */
+
+p				{ color:#000; font-size:12px; line-height:150%; }
+p .left			{ margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+p .right		{ margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+
+a				{  }
+a:link			{ color: #00f; }
+a:visited		{ color: #0f0; }
+a:active		{ color: #000; }
+a:focus			{ color: #666; }
+a:hover			{ color: #f00; }
+
+blockquote		{ color:#000; font-size:12px; }
+
+strong			{ font-weight:bold; }
+em				{ font-style:italic; }
+
+
+/* Lists */
+
+ul				{  }
+ol				{ list-style-type:decimal; }
+
+ul li			{ color: #000; font-size: 12px; }
+ol li			{ color: #000; font-size: 12px; }
+
+dl				{  }
+dt				{  }
+dd				{  }
+
+
+/* Tables */
+
+table			{ width:100%; }
+
+tr				{  }
+.odd			{ background-color:#eee; }
+.even			{ background-color:#fff; }
+
+th				{ font-weight:bold; }
+thead, th		{ background: #ccc; }
+
+tbody			{  }
+
+th, td, caption	{  }
+caption			{  }
+
+tfoot			{  }
+.tfoot			{ background-color:#ccc; text-align:center; font-style: italic; }
+
+caption			{ background:#efefef; }
+
+
+/* Container */
+
+#wrapper			{ width: 900px; margin: 0px auto; background-color:#ffffff; }
+
+#top				{ background-color:black; width:100%; padding: 20px 0;overflow:hidden; 
+						border-bottom:1px #800000 solid; }
+
+#logo				{ margin: 0 0 10px 10px; float:left }
+
+#social-media		{ float:right; margin:0 10px 0 0; }
+#social-media p		{ color:#000000; font-size:11px; margin:4px 10px 4px opx; }
+#social-media img	{ width:24px; height:24px; }
+#social-media ul li	{ display:inline; }
+
+#search-bar			{ margin: 20px 40px 10px 0; float:right }
+
+			/* only if you have something to search (bed. der suchleiste */
+						input[type=text] {
+		    							width: 180px;
+		   								box-sizing: border-box;
+		    							border: 2px solid #ccc;
+		    							border-radius: 4px;
+		    							font-size: 16px;
+									    background-color: white;
+									    background-image: url('searchicon.png');
+									    background-position: 10px 10px; 
+									    background-repeat: no-repeat;
+									    padding: 12px 20px 12px 40px;
+									    -webkit-transition: width 0.4s ease-in-out;
+									    transition: width 0.4s ease-in-out;
+										}
+
+					input[type=text]:focus { width: 100%;}
+//* Nav. Bar*//
+#top {
+	background-color:black;
+	width:100%;
+}
+#topnav {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	cursor:pointer;
+	position:relative;
+}
+#topnav li {
+	float:left;
+	width:150px;
+	height: 40px; 
+	background-color:black;
+	opacity= .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: medium; 
+	margin-right:2px
+}
+
+#topnav li a {
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:10px 20px
+}
+#topnav li a:hover {
+	background-color:maroon
+}
+#topnav li ul li {
+	display:none;
+}
+#topnav li:hover ul li {
+	display:block;
+}
+
+//* End Navigation stuff *//
+
+#banner				{  }
+
+#sub-banner			{ width: 100%; background-color:black; padding:15px 0; overflow: hidden; }
+#sub-banner h3		{ color:#ffffff; font-size: 16px; font-weight:bold; text-align:center; line-height:180%; }
+#sub-banner h5		{ color:#ffffff; font-size: 12px; font-weight:bold; text-align:center; line-height:180%; }
+
+#content-wrapper	{  }
+
+#leftnav			{  }
+
+#leftside			{  }
+
+#content			{ float: left; width:650px; padding:20px; }
+#content h1			{ margin: 0 0 20px 0; font-size:32px; border-bottom:1px #777777 solid; padding:20px 0; }
+#content p			{ margin: 16px 0; line-height: 160%; }
+#content h2			{ margin: 20px 0 0 0; }
+#content img		{ padding: 8px; border: 1px #888888 solid; margin: 8px; }
+
+#rightside			{ padding: 20px; margin-left: 675px;}
+#rightside h2		{ margin: 20px 0 10px 0; }
+#rightside p		{ margin:: 8px 0; line-height:160%; }
+
+#footer				{ clear:both; background-color:#000000; padding: 10px 0; }
+#footer p			{ text-align: center; color: #ffffff; }
+
+/* container - place inside each section or around the entire page depending on your layout */
+.container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+ 
+/* for clearing any floats <br class=&quot;clearfloat&quot; /> */
+.clearfloat {
+    clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+ 
+/*--- header section - put whatever you want here ---*/
+#header {
+}
+ 
+/*--- horizontal &quot;block&quot; menu ---*/
+#menu {
+    float: left;
+}
+#menu li {
+    display: block;
+    float: left;
+}
+#menu li a {
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    width: 125px;
+    padding: 5px 10px 5px 10px;
+}
+/* wordpress specific menu stylings */
+#menu li.current_page_item a {
+}
+#menu li.first a {
+}
+#menu li.last a {
+}
+ 
+/*--- content section - put whatever you want here ---*/
+#content {
+    font: 1.2em Verdana, Arial, Helvetica, sans-serif;
+}
+ 
+/*--- footer section - put whatever you want here ---*/
