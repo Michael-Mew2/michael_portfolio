@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Contact Mi</title>
+
+    <meta name="description" content="Contact me via my contact form if you want to know more about me">
+</head>
+<body>
+     <!-- Nav-Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./about.html" class="btn__simple">
+                        <p class="button__text">About Mi</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./skills.html" class="btn__simple">
+                        <p class="button__text">My Skills</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html" class="logo__top">
+                        <div class="logo__box__top">
+                            <img src="./pictures/mi-logo-dark.svg" alt="Logo Michael">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./projects.html" class="btn__simple">
+                        <p class="button__text">My Projects</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="btn__simple">
+                        <p class="button__text">Contact Mi</p>
+                    </a>
+                </li>
+            </ul>
+
+             <!-- Toggle Menu -->
+             <div id="menu__toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul class="hidden__menu">
+                    <li>
+                        <a href="./about.html" class="btn__simple">
+                            <p class="button__text">About Mi</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./skills.html" class="btn__simple">
+                            <p class="button__text">My Skills</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./projects.html" class="btn__simple">
+                            <p class="button__text">My Projects</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./contact.html" class="btn__simple">
+                            <p class="button__text">Contact Mi</p>
+                        </a>
+                    </li>
+                </ul>
+                    
+                
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Banner -->
+        <div class="hero hero__offset hero__contact">
+            <div class="hero__secondary__content">
+                <div class="headline__shadow__out">
+                    <h1>Contact Mi(chael)</h1>
+                    <div class="headline__shadow__element"></div>
+                </div>
+            </div>
+            <div class="hero__decoration__bottom"></div>
+        </div>
+
+        <!-- Contact Introduction -->
+        <section class="content__contact">
+            <div class="content">
+                <p class="clr__white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quidem nisi et odit, fugit soluta in dolore itaque omnis voluptas possimus officiis provident dolorum incidunt quasi pariatur quia velit aliquid.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat tenetur tempora, illo pariatur inventore repellendus obcaecati quia, vitae velit voluptate accusantium unde ut quasi delectus animi aut praesentium corporis. Eius?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti excepturi quasi nesciunt modi nisi dolor incidunt aspernatur, corporis totam. Distinctio veritatis voluptates ipsum quibusdam assumenda aut impedit modi repellendus perspiciatis.
+                </p>
+                <div class="socials socials__clear">
+
+                    <a href="" class="btn__social">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    
+                    <a href="" class="btn__social">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                
+                    <a href="" class="btn__social">
+                        <i class="fa-brands fa-xing"></i>
+                    </a>
+                
+                    <a href="" class="btn__social">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                
+                </div>
+            </div>
+        </section>
+        <section class="content__contact__form">
+            <div class="form__style">
+                <form action="#" method="get">
+                    <fieldset class="Who?">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname" required>
+            
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname" required>
+            
+                        <label for="company">Company / Organization</label>
+                        <input type="text" name="company" id="company" required>
+                    </fieldset>
+            
+                    <fieldset class="How?">
+                        <label for="tel">Phone</label>
+                        <input type="tel" name="tel" id="tel" required minlength="5">
+            
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required minlength="6">
+            
+                        <label for="method">How do you want me to contact you?</label>
+                        <fieldset class="r-pill">
+                            <div class="r-pill__group">
+                               <span class="r-pill__item">
+                                 <input type="radio" id="call_me" name="method" value="call_me">
+                                 <label for="call_me">I want you to call me!</label>
+                               </span>
+                               <span class="r-pill__item">
+                                 <input type="radio" id="write_me" name="method" value="write_me" checked>
+                                 <label for="write_me">I want you to write me!</label>
+                               </span>
+                               <span class="r-pill__item">
+                                 <input type="radio" id="try_both" name="method" value="try_both">
+                                 <label for="try_both">Call me or Text me, wherever I answer first</label>
+                               </span>
+                            </div>
+                           </fieldset>
+                    </fieldset>
+            
+                    <fieldset class="Why?">
+                        <label for="reason">Why do you want to contact me?</label>
+                        <textarea name="reason" id="reason" cols="20" rows="10" required minlength="15"></textarea>
+                    </fieldset>
+
+                    <p class="clr__strong__black">By submitting your contact information you agree that I'm allowed to use your given data to contact you. You also agree that I'm allowed to storage your data until our contact is over. In return I'll promise that I try to don't give your to a third party without your agreement. To insure that you read this you have to write chameleon at the end of the reason you want to contact me. Otherwise I won't read this. 
+                    <br>
+                    <br>
+                    See Ya!</p>
+                    <input type="submit" value="Let's Talk">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer top -->
+        <section class="footer__top">
+            <div class="footer__top__left">
+                <div class="footer__top__left__logo">
+                    <img src="./pictures/Weiß für dunklen Hintergrund.svg" alt="Logo Michael">        
+                </div>
+
+                <div class="footer__top__left__text">
+                    <p class="clr__white">Always looking at the bright side of life since 2024</p>
+                </div>
+            </div>
+
+            <div class="footer__top__right">
+
+            </div>
+        </section>
+
+        <!-- Footer Bottom -->
+        <section class="footer__bottom">
+            <div class="footer__bottom__left">
+                <p class="clr__black">&copy Michael 2024, hugely inspired from the website of <a class="clr__strong__black" href="https://ustwogames.co.uk/">ustwo games</a> (pls don't sue me)</p>
+            </div>
+
+            <div class="footer__bottom__right">
+                <div class="socials socials__dark">
+                    <a href="./backbone.html" class="btn__social btn__social__backbone" aria-label="this button brings you to the asset library" title="Backbone.gif" target="_blank">
+                        <i class="fa-solid fa-bone"></i>
+                    </a>
+                
+                    <a href="" class="btn__social">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    
+                    <a href="" class="btn__social">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                
+                    <a href="" class="btn__social">
+                        <i class="fa-brands fa-xing"></i>
+                    </a>
+                
+                    <a href="" class="btn__social">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+</body>
+</html>
